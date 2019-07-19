@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    font-size: 0.9em;
+    float: right;
+    padding: 20px;
+    margin-top: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+#apps {
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -138px -34px;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#sign-in {
+    background-color: #4386fa;
+    margin: 15px;
+    padding: 9px;
+    border: 1px solid #4386fa;
+    border-radius: 2px;
+}
+
+#sign-in a {
+    color: white;
+    font-weight: bold;
+}
