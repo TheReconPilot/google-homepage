@@ -3,8 +3,10 @@ body {
 }
 
 nav {
+    position: absolute;
+    top: 0;
+    right: 0;
     font-size: 0.9em;
-    float: right;
     padding: 20px;
     margin-top: 8px;
 }
@@ -45,4 +47,17 @@ nav ul li a {
 #sign-in a {
     color: white;
     font-weight: bold;
+}
+
+.container {
+    position: relative;
+}
+
+#google {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: url("https://www.google.com/logos/doodles/2019/50th-anniversary-of-the-moon-landing-6524862532157440.4-vacta.gif");
+    width: 480px;
+    height: 270px;
 }
