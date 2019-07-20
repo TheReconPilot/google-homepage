@@ -42,8 +42,6 @@ nav ul li {
 
 #apps {
     background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
-    width: 30px;
-    height: 30px;
     background-position: -137px -38px;
     display: inline;
     position: relative;
@@ -75,9 +73,21 @@ input[type="text"] {
     border-radius: 50px;
 }
 
+input[type="text"]:hover, input[type="text"]:focus {
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.3)
+}
+
 input[type="submit"] {
+    padding: 7px;
     margin: 10px 5px;
     color: #45433e;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: black;
 }
 
 .container {
