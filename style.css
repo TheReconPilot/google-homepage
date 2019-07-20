@@ -104,14 +104,36 @@ input[type="submit"] {
     position: absolute;
     bottom: 0;
     width: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
 }
 
+.left, .right {
+    display: inline;
+}
 
 .footer ul a {
     color: rgba(0,0,0,0.54);
     font-size: 0.9em;
 }
 
+.footer ul li {
+    padding: 10px;
+    font-size: 0.9em;
+}
+
 .right {
     float: right;
+    margin-right: 15px;
+}
+
+.left {
+    float: left;
+    margin-left: 15px;
+}
+
+.country {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 8px;
+    padding-left: 25px;
+    font-size: 0.95em;
 }
