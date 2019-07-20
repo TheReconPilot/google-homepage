@@ -6,6 +6,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+li {
+    display: inline-block;
+}
+
 nav ul li a {
     color: black;
 }
@@ -31,7 +35,6 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
     padding: 10px;
     margin: 10px;
     font-size: 0.9em;
@@ -87,11 +90,28 @@ input[type="submit"] {
 }
 
 .languages ul li {
-    display: inline-block;
     padding: 5px;
     font-size: 0.8em;
 }
 
 .explore {
     font-size: 0.9em;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,0.54);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.footer ul a {
+    color: rgba(0,0,0,0.54);
+    font-size: 0.9em;
+}
+
+.right {
+    float: right;
 }
