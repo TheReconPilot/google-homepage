@@ -61,8 +61,7 @@ nav ul li {
 
 form {
     width: 700px;
-    margin:30px auto;
-    text-align: center;
+    margin:20px auto;
 }
 
 input[type="text"] {
@@ -76,4 +75,23 @@ input[type="text"] {
 input[type="submit"] {
     margin: 10px 5px;
     color: #45433e;
+}
+
+.container {
+    text-align: center;
+}
+
+.languages {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.languages ul li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+.explore {
+    font-size: 0.9em;
 }
