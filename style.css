@@ -58,3 +58,22 @@ nav ul li {
 #sign-in a {
     color: white;
 }
+
+form {
+    width: 700px;
+    margin:30px auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 500px;
+    margin: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+}
+
+input[type="submit"] {
+    margin: 10px 5px;
+    color: #45433e;
+}
